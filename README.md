@@ -5,9 +5,11 @@
 
 A simple desktop GUI application to convert Microsoft Word `.docx` files to `.pdf` format using the `docx2pdf` library.  
 
+![](./media/word-to-pdf-converter-demo.gif)
+
 ## Features
 
-- Convert one or more Word `.docx` files to PDF.
+- Convert one or more Word `.docx` files to `.pdf`.
 - Select multiple files and convert them all at once.
 - View and manage input and output paths in a list view.
 - Choose a custom output folder for each file.
@@ -28,7 +30,7 @@ A simple desktop GUI application to convert Microsoft Word `.docx` files to `.pd
 ## Requirements
 
 - Python 3.x
-- `docx2pdf` (install via pip)
+- `docx2pdf` (installed in step #3 below)
 - `tkinter` (usually included with Python installations)
 
 
@@ -56,7 +58,6 @@ venv\Scripts\activate
 ```bash
 venv\Scripts\Activate.ps1
 ```
-
 
 🍎 macOS/🐧Linux
 ```
