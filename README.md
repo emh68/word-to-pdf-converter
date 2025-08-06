@@ -25,8 +25,6 @@ A simple desktop GUI application to convert Microsoft Word `.docx` files to `.pd
 4. **Convert All** – Start the conversion of all added files. 
 5. **View Logs** – Check the log window for real-time updates and results.
 
-![]()
-
 ## Requirements
 
 - Python 3.x
@@ -35,7 +33,7 @@ A simple desktop GUI application to convert Microsoft Word `.docx` files to `.pd
 
 
 ## Getting Started
-Follow the steps below to set up and run the word-to-pdf-converter locally.  
+Follow the steps below to set up and run the `word-to-pdf-converter` locally.  
 
 ### 1. Clone the repository
 <small>Open your terminal (Command Prompt, PowerShell, Git Bash, or macOS/Linux Terminal), then run:</small>
