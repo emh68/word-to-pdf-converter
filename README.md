@@ -25,6 +25,8 @@ A simple desktop GUI application to convert Microsoft Word `.docx` files to `.pd
 4. **Convert All** – Start the conversion of all added files. 
 5. **View Logs** – Check the log window for real-time updates and results.
 
+>**Note:** <small>*Batch conversion may take some time. If you're converting more than two files at once, please be patient and allow the process to finish.*</small>
+
 ## Requirements
 
 - Python 3.x
