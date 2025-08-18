@@ -120,8 +120,11 @@ class DocxToPdfConverterApp:
 
         # Show warning dialog
         response = messagebox.askokcancel(
-            "WARNING",
-            "Please SAVE all open Word documents and CLOSE Microsoft Word before continuing!!!\n\n"
+            "⚠️ WARNING",
+            "Conversion Requirements:\n\n"
+            "1. Any Word file(s) you want to convert must be saved and closed in Microsoft Word. If a file is open, the conversion may fail.\n\n"
+            "2. The PDF output files must not already exist. If a PDF with the same name exists, either delete it or rename it before converting.\n\n"
+            "Please SAVE ALL open Word and open PDF documents and CLOSE Microsoft Word and Adobe Acrobat Reader before continuing.\n\n"
             "Click OK to proceed or Cancel to abort."
         )
         if not response:
